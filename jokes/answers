@@ -1,0 +1,19 @@
+Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+
+Sessions store data for individual users against a unique session ID temporarily and can only be used in one domain.
+
+Json tokens is not limited to one domain because they are stored in the request header
+
+What does bcrypt do to help us store passwords in a secure manner?
+
+ it can hashes them so that when added to a database it shouldn't be visible as written by the user.
+
+How are unit tests different from integration and end-to-end testing?
+
+end-to-end testing is testing the entire application and interacts with the app just like the user would.
+
+Unit testing requires you to break down the application into smaller parts sin order to test it.
+
+How _Test Driven Development_ changes the way we write applications and tests.
+
+We write tests to make sure our code is working correctly.
